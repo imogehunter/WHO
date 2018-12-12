@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+h1 {
+	font-family: 'Share', cursive;
+    font-weight: normal;
+    font-style: normal;
+	font-size: 4vw;
+	letter-spacing: 12px;
+	word-spacing: 35px;
+	text-transform: uppercase;
+	text-align: center;
+	position: absolute;
+	top: 30%;
+	right: 0;
+	left: 0;
+	color: #a30503;
+}
+
+h2 {
+	font-family: 'Share', cursive;
+    font-weight: normal;
+    font-style: normal;
+	font-size: 2vw;
+	letter-spacing: 2px;
+	word-spacing: 15px;
+	text-transform: capitalize;
+	text-align: center;
+	position: absolute;
+	top: 45%;
+	right: 0;
+	left: 0;
+	color: #a30503;
+}
+
+/* Button */
+.myButton {
+	background-color:#c41d1d;
+	border:4px solid #a30503;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family: 'Share', cursive;
+    font-weight: normal;
+    font-style: normal;
+	font-size:21px;
+	padding:14px 31px;
+	position:absolute;
+    transition: .5s ease;
+    top: 60%;
+    left: 47%;
+		text-decoration: none;
+
+}
+.myButton:hover {
+	background-color:#a30503;
+}
+
+
+/* GRADIENT BACKGROUND */
+
+.default {
+	width: 100vh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #000000, #3a3a3a, #000000, #3a3a3a, #000000);
+	background-size: 200% 200%;
+	-webkit-animation: Gradient 50s ease infinite;
+	-moz-animation: Gradient 50s ease infinite;
+	animation: Gradient 50s ease infinite;
+}
+
+.defaultChange {
+	width: 100vh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #000000, #3a3a3a, #000000, #3a3a3a, #000000);
+	background-size: 200% 200%;
+	-webkit-animation: Gradient 50s ease infinite;
+	-moz-animation: Gradient 50s ease infinite;
+	animation: Gradient 50s ease infinite;
+}
+
+.defaultChange1 {
+	width: 100vh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #000000, #6d2020, #000000, #6d2020, #000000);
+	background-size: 200% 200%;
+	-webkit-animation: Gradient 50s ease infinite;
+	-moz-animation: Gradient 50s ease infinite;
+	animation: Gradient 50s ease infinite;
+}
+
+.defaultChange2 {
+	width: 100vh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-65deg, #4f0000, #1e0000, #660101, #1e0000, #000000);
+	background-size: 200% 200%;
+	-webkit-animation: Gradient 50s ease infinite;
+	-moz-animation: Gradient 50s ease infinite;
+	animation: Gradient 50s ease infinite;
+}
+
+.defaultChange3 {
+	width: 100vh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-85deg, #a30503, #b50200, #ce0200, #e00402, #f70402);
+	background-size: 200% 200%;
+	-webkit-animation: Gradient 50s ease infinite;
+	-moz-animation: Gradient 50s ease infinite;
+	animation: Gradient 50s ease infinite;
+}
+
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}

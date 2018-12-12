@@ -1,0 +1,313 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.bodies {
+    background-image: url("../img/BG.png");
+    /* background-repeat: no-repeat, repeat; */
+    background-size: cover;
+     font-family: 'Share', cursive;
+       font-weight: normal;
+       font-style: normal;
+   	font-size: 1vw;
+   	letter-spacing: 2px;
+   	word-spacing: 15px;
+   	text-transform: none;
+   	text-align: left;
+}
+
+.bodiesChange {
+    background-image: url("../img/BG2.png");
+    /* background-repeat: no-repeat, repeat; */
+    background-size: cover;
+     font-family: 'Share', cursive;
+       font-weight: normal;
+       font-style: normal;
+   	font-size: 1vw;
+   	letter-spacing: 2px;
+   	word-spacing: 15px;
+   	text-transform: none;
+   	text-align: left;
+}
+
+.bodiesChange2 {
+    background-image: url("../img/BG3.png");
+    /* background-repeat: no-repeat, repeat; */
+    background-size: cover;
+     font-family: 'Share', cursive;
+       font-weight: normal;
+       font-style: normal;
+   	font-size: 1vw;
+   	letter-spacing: 2px;
+   	word-spacing: 15px;
+   	text-transform: none;
+   	text-align: left;
+}
+
+.bodiesChange3 {
+    background-image: url("../img/BG4.png");
+    /* background-repeat: no-repeat, repeat; */
+    background-size: cover;
+     font-family: 'Share', cursive;
+       font-weight: normal;
+       font-style: normal;
+   	font-size: 1vw;
+   	letter-spacing: 2px;
+   	word-spacing: 15px;
+   	text-transform: none;
+   	text-align: left;
+}
+
+.title {
+  /* position: absolute; */
+  top: 30%;
+  right: 0;
+  left: 0;
+  color: #a30503;
+  margin-right: 50%;
+  margin-left: 20%;
+  padding-top: 10%;
+}
+
+.title span {
+  box-shadow: 0 0 0 10px #fff; /* Tune line "padding" here */
+  background-color: #D3D3D3;
+  line-height: 2; /* Tune line "margin" here */
+}
+
+/* Button */
+.myButton {
+	background-color:#c41d1d;
+	border:4px solid #a30503;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family: 'Share', cursive;
+    font-weight: normal;
+    font-style: normal;
+	font-size:21px;
+	padding:14px 31px;
+	position:absolute;
+    transition: .5s ease;
+    top: 50%;
+    left: 2%;
+		text-decoration: none;
+}
+
+.myButton1 {
+	background-color:#c41d1d;
+	border:4px solid #a30503;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family: 'Share', cursive;
+    font-weight: normal;
+    font-style: normal;
+	font-size:21px;
+	padding:14px 31px;
+	position:absolute;
+    transition: .5s ease;
+    top: 50%;
+    left: 84%;
+		text-decoration: none;
+}
+
+.myButton2 {
+	background-color:#c41d1d;
+	border:4px solid #a30503;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family: 'Share', cursive;
+    font-weight: normal;
+    font-style: normal;
+	font-size:21px;
+	padding:14px 31px;
+	position:absolute;
+    transition: .5s ease;
+    top: 90%;
+    left: 50%;
+		text-decoration: none;
+}
+
+
+.myButton:hover {
+	background-color:#a30503;
+}
+
+/* PICTURES */
+.barclay1{
+	clear:both;
+	position: fixed;
+	margin-left: 62%;
+	top: 25%;
+
+animation-name: floating;
+	-webkit-animation-name: floating;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	-webkit-animation-timing-function: ease-in-out;
+}
+.barclay2{
+	clear:both;
+	position: fixed;
+	margin-left: 64%;
+	top: 45%;
+}
+.barclay3{
+	clear:both;
+	position: fixed;
+	margin-left: 57%;
+	top: 45%;
+}
+.barclay4{
+	clear:both;
+	position: fixed;
+	margin-left: 59%;
+	top: 37%;
+}
+.barclay5{
+	clear:both;
+	position: fixed;
+	margin-left: 63%;
+	top: 55%;
+}
+.barclay6{
+	clear:both;
+	position: fixed;
+	margin-left: 70%;
+	top: 35%;
+}
+
+
+/* FLOAT */
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.barclay1 {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  position: absolute;
+}
+
+.barclay1 {
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: 4s ease-in-out infinite;
+	img { width: 100%; height: auto; }
+}
+
+.barclay2 {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.barclay2 {
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 5s ease-in-out infinite;
+	img { width: 100%; height: auto; }
+}
+
+.barclay3 {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.barclay3 {
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+	img { width: 100%; height: auto; }
+}
+
+.barclay4 {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.barclay4 {
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 4s ease-in-out infinite;
+	img { width: 100%; height: auto; }
+}
+
+.barclay5 {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.barclay5 {
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 3s ease-in-out infinite;
+	img { width: 100%; height: auto; }
+}
+
+.barclay6 {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.barclay6{
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 2s ease-in-out infinite;
+	img { width: 100%; height: auto; }
+}
